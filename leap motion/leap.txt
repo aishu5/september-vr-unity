@@ -1,0 +1,19 @@
+
+
+
+Cylon adaptor for the Leap Motion
+
+https://github.com/hybridgroup/cylon-leapmotion
+___________________________________________________________________
+
+WebSocket Communication
+
+
+https://developer.leapmotion.com/documentation/javascript/supplements/Leap_JSON.html
+
+______________________________________________________________________________________________
+LEAP Motion and Unity through webSocket service
+LEAP Motion and Unity through webSocket service
+
+https://www.youtube.com/watch?v=avpBksLlgQs
+______________________________________________________________________

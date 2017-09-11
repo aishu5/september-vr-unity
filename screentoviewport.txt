@@ -1,0 +1,10 @@
+public void movetowardstarget(GameObject target)
+    {
+        if(Vector3.Distance(transform.position, target.transform.position) > minimumDistanceFromTarget) //we move only if we are further than the minimum distance
+        {
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, movespeed * Time.deltaTime);
+        } else //otherwise, we stop moving
+        {
+            movingtowardstarget = false;
+        }
+    }
