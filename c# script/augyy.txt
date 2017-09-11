@@ -1,0 +1,43 @@
+
+using UnityEngine;
+using System.Collections;
+
+public class hy : MonoBehaviour 
+{
+	float rotSpeed = 20;
+void start()
+    {
+        original = transform.rotation;
+        originalPos = transform.position;
+    }
+
+	public void OnMouseDrag()
+	{
+ if (_isRotating)
+        {
+		float rotX = Input.GetAxis("Mouse X")*rotSpeed*Mathf.Deg2Rad;
+		float rotY = Input.GetAxis("Mouse Y")*rotSpeed*Mathf.Deg2Rad;
+
+		transform.RotateAround(Vector3.up, -rotX);
+		transform.RotateAround(Vector3.right,rotY);
+	}
+}
+public void OnMouseDown()
+    {
+        // rotating flag
+        _isRotating = true;
+
+        // store mouse position
+      transform.RotateAround(Vector3.up, -rotX);
+		transform.RotateAround(Vector3.right,rotY);
+    }
+public void OnMouseUp()
+    {
+        // rotating flag
+        _isRotating = false;
+        transform.rotation = original;
+        transform.position = originalPos;
+    }
+
+
+}

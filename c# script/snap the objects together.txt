@@ -1,0 +1,12 @@
+snap an object to another object?
+
+https://gamedev.stackexchange.com/questions/123929/snap-an-object-to-another-object/123953
+__________________________________________________________________________________________________________________________
+[RELEASED] Snap-and-Plug: join anything to anything
+
+ https://www.assetstore.unity3d.com/en/#!/content/21930
+https://forum.unity3d.com/threads/released-snap-and-plug-join-anything-to-anything.268490/
+__________________________________________________________________________________________________________________________
+http://snapandplug.com/
+snap and plug.com
+_______________________________________________

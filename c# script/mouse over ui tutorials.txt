@@ -1,0 +1,13 @@
+MouseOver UI Tutorial
+https://www.youtube.com/watch?v=PhK47DNyl0c
+_______________________________________________________________
+Change Image from script - Unity 5 UI Tutorial
+https://www.youtube.com/watch?v=40ktY3S5sQQ
+__________________________________________________________________________
+https://www.youtube.com/watch?v=5BobLzmqhNE
+Displaying UI with OnMouseOver
+________________________________________________________________________________
+
+https://www.youtube.com/watch?v=dIUN7Q2wy20
+Unity C# - Mouse Over Text / Clickable text
+____________________________________________________________

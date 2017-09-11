@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using XboxCtrlrInput;
+
+public class ParentScript : MonoBehaviour {
+    string str;
+    public GameObject gameobj;
+
+    // Use this for initialization
+    void Start () {
+
+    }
+
+    // Update is called once per frame
+    void LateUpdate () {
+        gameobj = GameObject.Find (str);
+//        Debug.LogWarning (str);
+
+        if(XCI.GetButton(XboxButton.RightBumper))
+            gameobj.transform.parent = this.gameObject.transform;
+
+    }
+
+    void OnTriggerEnter(Collider Coll){
+        str = Coll.gameObject.name;
+    }
+}

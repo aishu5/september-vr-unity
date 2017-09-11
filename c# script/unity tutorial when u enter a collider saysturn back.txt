@@ -1,0 +1,15 @@
+Unity Script that displays text when you enter a collider.
+https://www.youtube.com/watch?v=NTkqHGi-sPA
+_______________________________________________________________________
+[Unity3D] Making a GUI appear on entering a trigger in Unity3D
+https://www.youtube.com/watch?v=HBd-hiDGrrg
+_________________________________________________________________________
+Unity3D on trigger enter display Text. Tutorial 11
+https://www.youtube.com/watch?v=F9X4HdnsMy8
+_______________________________________________________________________
+https://www.youtube.com/watch?v=BYwkd80T5Zk
+03 - Triggers
+____________________________________________________________________________
+https://www.youtube.com/watch?v=Z5Wm-WZi0g8
+Unity 3D Simple Pop Up Text
+_____________________________________________________________________________
